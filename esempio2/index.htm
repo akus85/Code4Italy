@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Camera dei Deputati</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="mobile camera deputati">
+        <meta name="author" content="sam deering">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/jquery-1.8.3.min.js"></script>
+        <script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <link href="css/jquery.mobile.structure-1.2.0.min.css" rel="stylesheet">
+        <link href="css/jquery.mobile.theme-1.2.0.min.css" rel="stylesheet">
+        <link href="css/jquery.mobile-1.2.0.min.css" rel="stylesheet">
+        <link href="css/photoswipe.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- homepage -->
+        <div data-role="page" id="page0">
+            <div data-role="header">
+                <h1>Home</h1>
+            </div>
+            <div data-role="content">
+					
+					<img src="images/camera.png" alt="rss" style="width:100%">
+					
+                    <div class="pt-menu">
+                        <a data-theme="d" data-corners="false" data-role="button" href="#page1">
+                            <img src="images/icons/round/64x64/profile.gif" alt="rss" style="display: block; margin: 0 auto">
+                            Deputati
+                        </a>
+
+                        <a data-theme="d" data-corners="false" data-role="button" href="#page2">
+                            <img src="images/icons/round/64x64/votazioni.gif" alt="rss" style="display: block; margin: 0 auto">
+                            Votazioni
+                        </a>
+
+                        <a data-theme="d" data-corners="false" data-role="button" href="#page3">
+                            <img src="images/icons/round/64x64/leggi.gif" alt="mail" style="display: block; margin: 0 auto">
+                            Leggi
+                        </a>
+
+                        <a data-theme="d" data-corners="false" data-role="button" href="#page4">
+                            <img src="images/icons/round/64x64/settings.gif" alt="mail" style="display: block; margin: 0 auto">
+                            Settings
+                        </a>
+
+                    </div>
+
+            </div>
+            <div data-role="footer"  data-position="fixed">
+                <h2>Code 4 Fun</h2>
+                <p class="copyright">&copy; Copyright 2014</p>
+            </div>
+        </div>
+
+        <!-- page 1 ------------------------------------------------------------------------------------------------------------>
+		
+       <div data-role="page" id="page1" data-title="Deputati">
+            <div data-role="header">
+                <h1>Lista Deputati Della Repubblica</h1>
+                <a data-role="button" href="#page0" data-transition="flip"   data-icon="home" data-corners="false">Home</a>
+            </div>
+           <div data-role="content">
+
+                <ul data-inset="true" data-role="listview" class="ui-listview ui-listview-inset ui-corner-all ui-shadow ui-corner-none">
+                    <li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="false" data-iconpos="right" data-theme="c" class="portfolio-item ui-btn ui-btn-icon-right ui-li ui-li-has-alt ui-li-has-thumb ui-first-child ui-btn-up-c ui-corner-none">
+					<div class="ui-btn-inner ui-li ui-li-has-alt">
+
+						<div class="ui-btn-text">
+							<a href="#page11" class="ui-link-inherit ui-corner-none">
+								<img src="images/portfolio/1/thumb/edit_yes.png" class="ui-li-thumb ui-corner-none">
+								<h3 class="ui-li-heading">Item 1</h3>
+								<p class="ui-li-desc">Item 1 desc</p>
+							</a>
+						</div>
+
+                    </div>
+					
+    
+					
+                    <a href="#page11" title="Purchase album" class="ui-li-link-alt ui-btn ui-btn-icon-notext ui-btn-up-c" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="false" data-iconpos="notext" data-theme="c"><span class="ui-btn-inner"><span class="ui-btn-text"></span><span data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-icon="arrow-r" data-iconpos="notext" data-theme="b" title="" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-btn-icon-notext"><span class="ui-btn-inner"><span class="ui-btn-text"></span><span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span></span></span></span></a></li>
+					
+					
+					
+                    
+                </ul>
+
+     
+
+            </div>
+            <div data-role="footer"  data-position="fixed">
+                <h2>Code 4 Fun</h2>
+                <p class="copyright">&copy; Copyright 2014</p>
+            </div>
+        </div>
+        
+
+		
+		    <!-- page 2 ------------------------------------------------------------------------------------------------------------>
+		
+	
+		
+		
+		
+		
+		
+		<div data-role="page" id="page11" data-title="Deputato">
+            <div data-role="header">
+                <h1>Profilo Deputato</h1>
+                <a data-role="button" href="#page1" data-icon="arrow-l"  data-corners="false">Back</a>
+            </div>
+            <div data-role="content">
+
+                <!-- profile image -->
+                <img src="images/icons/avatar/m_10.png" alt="mee"  />
+
+                <!-- my profile -->
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-corners="false" class="ui-corner-none" data-collapsed="false">
+                        <h2 class="ui-collapsible-heading"><a class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-up-d" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-icon="plus" data-iconpos="left" data-theme="d">
+                            <span class="ui-btn-text">Anagrafica</span>
+                        </a></h2>
+                        <div class="ui-body ui-body-d ui-textalign-left">
+
+                            <!-- profile fields -->
+                            <div class="tablerow">
+                                <div class="left-table">Nome:</div>
+                                <div class="right-table" id="nome">Joe Bloggs</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table">Data di Nascita:</div>
+                                <div class="right-table" id="datadinascita">27</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table" >Sesso:</div>
+                                <div class="right-table" id="sesso">Male</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table">Luogo di Nascita:</div>
+                                <div class="right-table" id="luogodinascita">USA</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table">spare 1:</div>
+                                <div class="right-table">.</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table">spare 2:</div>
+                                <div class="right-table">.</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- my skills -->
+                    <div data-role="collapsible" data-corners="false" class="ui-corner-none">
+                        <h2 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-up-d" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-icon="plus" data-iconpos="left" data-theme="d">
+                            <span class="ui-btn-text">Elezione</span>
+                        </a></h2>
+                        <div class="ui-body ui-body-d ui-textalign-left">
+
+                            <!-- profile fields -->
+                            <div class="tablerow">
+                                <div class="left-table">Nome:</div>
+                                <div class="right-table" id="nome">Joe Bloggs</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table">Data di Nascita:</div>
+                                <div class="right-table" id="datadinascita">27</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table" >Sesso:</div>
+                                <div class="right-table" id="sesso">Male</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table">Luogo di Nascita:</div>
+                                <div class="right-table" id="luogodinascita">USA</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table">spare 1:</div>
+                                <div class="right-table">.</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table">spare 2:</div>
+                                <div class="right-table">.</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ui-body">
+	            </div>
+
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h2>Code 4 Fun</h2>
+                <p class="copyright">&copy; Copyright 2014</p>
+            </div>
+        </div>
+		
+	    <!-- page 2 ------------------------------------------------------------------------------------------------------------>
+		
+
+        <div data-role="page" id="page2" data-title="page2">
+            <div data-role="header">
+                <h1>Votazioni della Camera</h1>
+                <a data-role="button" href="#page0" data-transition="flip" data-icon="home" data-corners="false">Home</a>
+            </div>
+            <div data-role="content">
+
+                <ul data-inset="true" data-role="listview" class="ui-listview ui-listview-inset ui-corner-all ui-shadow ui-corner-none">
+
+                    <li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="false" data-iconpos="right" data-theme="c" class="portfolio-item ui-btn ui-btn-icon-right ui-li ui-li-has-alt ui-li-has-thumb ui-first-child ui-btn-up-c ui-corner-none">
+					<div class="ui-btn-inner ui-li ui-li-has-alt">
+
+						<div class="ui-btn-text">
+							<a href="#page21" class="ui-link-inherit ui-corner-none">
+								<img src="images/portfolio/1/thumb/edit_yes.png" class="ui-li-thumb ui-corner-none">
+								<h3 class="ui-li-heading">Item 1</h3>
+								<p class="ui-li-desc">Item 1 desc</p>
+							</a>
+						</div>
+
+                    </div>
+					
+                    <a href="#page21" title="Purchase album" class="ui-li-link-alt ui-btn ui-btn-icon-notext ui-btn-up-c" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="false" data-iconpos="notext" data-theme="c"><span class="ui-btn-inner"><span class="ui-btn-text"></span><span data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-icon="arrow-r" data-iconpos="notext" data-theme="b" title="" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-btn-icon-notext"><span class="ui-btn-inner"><span class="ui-btn-text"></span><span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span></span></span></span></a></li>
+                </ul>
+
+     
+
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h2>Code 4 Fun</h2>
+                <p class="copyright">&copy; Copyright 2014</p>
+            </div>
+        </div>
+
+        <!-- page 3 ------------------------------------------------------------------------------------------------------------>
+	
+
+        <div data-role="page" id="page3" data-title="Leggi">
+            <div data-role="header">
+                <h1>Leggi</h1>
+                <a data-role="button" href="#page0" data-transition="flip"
+                data-icon="home" data-corners="false">Home</a>
+            </div>
+            <div data-role="content">
+
+                <ul data-inset="true" data-role="listview" class="ui-listview ui-listview-inset ui-corner-all ui-shadow ui-corner-none">
+                    <li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="false" data-iconpos="right" data-theme="c" class="portfolio-item ui-btn ui-btn-icon-right ui-li ui-li-has-alt ui-li-has-thumb ui-first-child ui-btn-up-c ui-corner-none">
+					<div class="ui-btn-inner ui-li ui-li-has-alt">
+
+						<div class="ui-btn-text">
+							<a href="#page31" class="ui-link-inherit ui-corner-none">
+								<img src="images/portfolio/1/thumb/edit_yes.png" class="ui-li-thumb ui-corner-none">
+								<h3 class="ui-li-heading">Item 1</h3>
+								<p class="ui-li-desc">Item 1 desc</p>
+							</a>
+						</div>
+
+                    </div>
+					
+                    <a href="#page31" title="Purchase album" class="ui-li-link-alt ui-btn ui-btn-icon-notext ui-btn-up-c" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="false" data-iconpos="notext" data-theme="c"><span class="ui-btn-inner"><span class="ui-btn-text"></span><span data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-icon="arrow-r" data-iconpos="notext" data-theme="b" title="" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-btn-icon-notext"><span class="ui-btn-inner"><span class="ui-btn-text"></span><span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span></span></span></span></a></li>
+
+			
+                    
+                </ul>
+
+     
+
+            </div>
+            <div data-role="footer"  data-position="fixed">
+                <h2>Code 4 Fun</h2>
+                <p class="copyright">&copy; Copyright 2014</p>
+            </div>
+        </div>
+
+   <!-- page 4 ------------------------------------------------------------------------------------------------------------>
+   
+   
+   
+   
+        <div data-role="page" id="page4" data-title="Contact">
+            <div data-role="header">
+                <h1>Settings</h1>
+                <a data-role="button" href="#page0" data-icon="home" data-corners="false">Home</a>
+            </div>
+            <div data-role="content">
+          
+					<select name="select-choice-1" id="select-choice-1">
+						<option value="<http://dati.camera.it/ocd/legislatura.rdf/repubblica_17>">Legislatura : Repubblica 17</option>
+				    </select>
+                    
+                    <fieldset data-role="controlgroup" data-type="vertical">
+                        <label for="lazy_profilo" class="ui-input-text">
+                            Lazy Loading Dati Profilo:
+                        </label>
+                        <input type="checkbox" class="required ui-input-checkbox ui-body-d ui-corner-none ui-shadow-inset"
+                        value="" name="lazy_profilo" id="lazy_profilo" data-corners="false">
+                    
+					
+                        <label for="lazy_votazioni" class="ui-input-text">
+                            Lazy Loading Dati Votazioni:
+                        </label>
+                        <input type="checkbox" class="required ui-input-checkbox ui-body-d ui-corner-none ui-shadow-inset"
+                        value="" name="lazy_votazioni" id="lazy_votazioni" data-corners="false">
+                   
+					
+                        <label for="lazy_leggi" class="ui-input-text">
+                            Lazy Loading Dati Leggi:
+                        </label>
+                        <input type="checkbox" class="required ui-input-checkbox ui-body-d ui-corner-none ui-shadow-inset"
+                        value="" name="lazy_leggi" id="lazy_leggi" data-corners="false">
+					</fieldset>
+
+
+            </div>
+            <div data-role="footer"  data-position="fixed">
+                <h2>Code 4 Fun</h2>
+                <p class="copyright">&copy; Copyright 2014</p>
+            </div>
+        </div>
+		
+		<!-- page 4 ------------------------------------------------------------------------------------------------------------>
+		
+		
+		<div data-role="page" id="page31" data-title="Dettaglio" data-position="fixed">
+			<div data-role="header">
+                <h1>Dettaglio Legge</h1>
+                <a data-role="button" href="#page3" data-icon="arrow-l"  data-corners="false">Back</a>
+            </div>
+			<div data-role="content">
+				<!-- profile image -->
+                <img src="images/icons/avatar/m_10.png" alt="Dettaglio"  />
+
+                <!-- my profile -->
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-corners="false" class="ui-corner-none" data-collapsed="false">
+                        <h2 class="ui-collapsible-heading"><a class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-up-d" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-icon="plus" data-iconpos="left" data-theme="d">
+                            <span class="ui-btn-text">Dettaglio Legge</span>
+                        </a></h2>
+                        <div class="ui-body ui-body-d ui-textalign-left">
+                            <div class="tablerow">
+                                <div class="left-table">spare 1:</div>
+                                <div class="right-table">.</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table">spare 2:</div>
+                                <div class="right-table">.</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+					<div data-role="footer" data-position="fixed">
+						<h2>Code 4 Fun</h2>
+						<p class="copyright">&copy; Copyright 2014</p>
+					</div>
+				</div>	
+			</div>
+        </div>
+		
+		
+	   <!-- page 4 ------------------------------------------------------------------------------------------------------------>	
+		
+		
+		
+		<div data-role="page" id="page21" data-title="Dettaglio" data-position="fixed">
+		    <div data-role="header">
+                <h1>Dettaglio Votazione</h1>
+                <a data-role="button" href="#page2" data-icon="arrow-l"  data-corners="false">Back</a>
+            </div>
+			<div data-role="content">
+				<!-- profile image -->
+                <img src="images/icons/avatar/m_10.png" alt="Dettaglio"  />
+
+                <!-- my profile -->
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-corners="false" class="ui-corner-none" data-collapsed="false">
+                        <h2 class="ui-collapsible-heading"><a class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-up-d" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-icon="plus" data-iconpos="left" data-theme="d">
+                            <span class="ui-btn-text">Dettaglio Votazione</span>
+                        </a></h2>
+                        <div class="ui-body ui-body-d ui-textalign-left">
+                            <div class="tablerow">
+                                <div class="left-table">spare 1:</div>
+                                <div class="right-table">.</div>
+                            </div>
+                            <div class="tablerow">
+                                <div class="left-table">spare 2:</div>
+                                <div class="right-table">.</div>
+                            </div>
+
+                        </div>
+                    </div>
+				</div>
+				<div data-role="footer" data-position="fixed">
+					<h2>Code 4 Fun</h2>
+					<p class="copyright">&copy; Copyright 2014</p>
+				</div>
+			
+        </div>
+
+ 	   <!-- page 4 ------------------------------------------------------------------------------------------------------------>
+
+ 
+	
+    </body>
+
+</html>
