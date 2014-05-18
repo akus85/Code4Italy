@@ -1,0 +1,6 @@
+"Camera dei Deputati Explorer" vuole "avvicinare" il cittadino all'istituzione Parlamentare, diffondendo la conoscenza dei suoi atti e delle persone che lo compongono. Un'applicazione multipiattaforma, destinata a svariati dispositivi, attualmente disponibile per gli smartphone Android, dotata di un interfaccia semplice ed intuitiva permette di accedere ai dati dei DEPUTATI, delle VOTAZIONI e dei provvedimenti LEGISLATIVI approvati dalla Camera.
+Nel menù principale, attraverso un'interfaccia a bottoni, è possibile visualizzare le informazioni desiderate.
+Cliccando su DEPUTATI si giunge all'elenco (in ordine alfabetico) degli Onorevoli componenti la Camera, dalla visualizzazione ad elenco si passa alla visualizzazione di alcuni dati biografici Deputato e ne viene mostrata la fotografia. La sezione LEGGI presenta l'elenco, ordinato in ordine cronologicamente decrescente, dei provvedimenti approvati dall'aula e divenuti legge dello Stato. Per ogni legge è possibile, con un solo click, visualizzare informazioni di dettaglio sul provvedimento. La visualizzazione delle leggi viene filtrata per LEGISLATURA.
+La sezione VOTAZIONI contiene l'esito di tutte le votazioni elettroniche, ordinate cronologicamente, con il dettaglio dell'esito della stessa.
+
+"Camera dei Deputati Explorer" è un progetto in Creative Commons.
