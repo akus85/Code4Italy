@@ -3,4 +3,4 @@ Nel menù principale, attraverso un'interfaccia a bottoni, è possibile visualiz
 Cliccando su **DEPUTATI** si giunge all'elenco (in ordine alfabetico) degli Onorevoli componenti la Camera, dalla visualizzazione ad elenco si passa alla visualizzazione di alcuni dati biografici Deputato e ne viene mostrata la fotografia. La sezione **LEGGI** presenta l'elenco, ordinato in ordine cronologicamente decrescente, dei provvedimenti approvati dall'aula e divenuti legge dello Stato. Per ogni legge è possibile, con un solo click, visualizzare informazioni di dettaglio sul provvedimento. La visualizzazione delle leggi viene filtrata per **LEGISLATURA**.
 La sezione **VOTAZIONI** contiene l'esito di tutte le votazioni elettroniche, ordinate cronologicamente, con il dettaglio dell'esito della stessa.
 
-"Camera dei Deputati Explorer" è un progetto in **Creative Commons**.
+*Camera Deputati Explorer* è un progetto in **Creative Commons**.
