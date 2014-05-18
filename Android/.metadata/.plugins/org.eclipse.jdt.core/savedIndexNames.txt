@@ -1,4 +1,0 @@
-INDEX VERSION 1.126+/Users/akus85/Programmazione/Hackathon/Android/.metadata/.plugins/org.eclipse.jdt.core
-4244007915.index
-1400063811.index
-3191879324.index

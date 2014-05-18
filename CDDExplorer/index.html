@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Camera dei Deputati</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="mobile camera deputati">
+        <meta name="author" content="sam deering">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/jquery-1.8.3.min.js"></script>
+        <script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <link href="css/jquery.mobile.structure-1.2.0.min.css" rel="stylesheet">
+        <link href="css/jquery.mobile.theme-1.2.0.min.css" rel="stylesheet">
+        <link href="css/jquery.mobile-1.2.0.min.css" rel="stylesheet">
+        <link href="css/photoswipe.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css"   />
+		<!--<script src="js/config.js"></script>
+        <script src="js/deputati.js"></script>
+		<script src="js/general.js"></script>
+        <script src="js/leggi.js"></script>
+		<script src="js/votazioni.js"></script>-->
+		<script src="js/config.js"></script>
+		
+    </head>
+
+    <body>
+
+        <!-- homepage -->
+        <div data-role="page" id="page0">
+            <div data-role="header">
+                <h1>Home</h1>
+            </div>
+            <div data-role="content">
+					
+					<img src="images/camera.png" alt="rss" style="max-width:100%; max-height:100%">
+					
+                    <div class="pt-menu">
+                        <a data-theme="d" data-corners="false" data-role="button" rel="external" href="deputato.html">
+                            <img src="images/icons/round/64x64/profile.gif" alt="rss" style="display: block; margin: 0 auto">
+                            Deputati
+                        </a>                        
+                        <a data-theme="d" data-corners="false" data-role="button" rel="external" href="votazioni.html">
+                            <img src="images/icons/round/64x64/votazioni.gif" alt="rss" style="display: block; margin: 0 auto">
+                            Votazioni
+                        </a>
+
+                        <a data-theme="d" data-corners="false" data-role="button" rel="external" href="leggi.html">
+                            <img src="images/icons/round/64x64/leggi.gif" alt="mail" style="display: block; margin: 0 auto">
+                            Leggi
+                        </a>
+
+                        <a data-theme="d" data-corners="false" data-role="button" href="#page4">
+                            <img src="images/icons/round/64x64/settings.gif" alt="mail" style="display: block; margin: 0 auto">
+                            Settings
+                        </a>
+
+                    </div>
+
+            </div>
+            <div data-role="footer"  data-position="fixed">
+                <h2>Code 4 Fun</h2>
+                <p class="copyright">&copy; Copyright 2014</p>
+            </div>
+        </div>
+
+   
+        <div data-role="page" id="page4" data-title="Contact">
+            <div data-role="header">
+                <h1>Settings</h1>
+                <a data-role="button" href="#page0" data-transition="flip"   data-icon="home" data-corners="false">Home</a>
+            </div>
+            <div data-role="content">
+          
+					<select name="legislatura" id="legislatura">
+						<option value="17">Legislatura : Repubblica 17</option>
+						<option value="16">Legislatura : Repubblica 16</option>
+						<option value="15">Legislatura : Repubblica 15</option>
+						<option value="14">Legislatura : Repubblica 14</option>
+						<option value="13">Legislatura : Repubblica 13</option>
+				    </select>
+                    
+      
+					<label for="lazy_profilo" class="ui-input-text">
+						Timeout (millisec):
+					</label>
+					<input type="text" class="required ui-input-checkbox ui-body-d ui-corner-none ui-shadow-inset"
+					value="5000" name="text" id="timeout" data-corners="false">
+				
+				
+					<label for="lazy_votazioni" class="ui-input-text">
+						Max Row
+					</label>
+					<input type="text" class="required ui-input-checkbox ui-body-d ui-corner-none ui-shadow-inset"
+					value="500" name="maxRow" id="totalerighe" data-corners="false">
+					
+					<input type="button" 
+					value="Salva" name="btnSalva" id="btnSalva" data-corners="false" onClick=saveData();>
+            </div>
+            <div data-role="footer"  data-position="fixed">
+                <h2>Code 4 Fun</h2>
+                <p class="copyright">&copy; Copyright 2014</p>
+            </div>
+        </div>
+		
+		
+		
+		
+	   
+ 
+	
+    </body>
+
+</html>
